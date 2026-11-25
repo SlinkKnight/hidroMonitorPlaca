@@ -94,9 +94,10 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U3"
-			(at 2.54 -4.1 90)
+			(at 2.08 -5 90)
 			(layer "F.SilkS")
-			(uuid "c751f555-e5f8-468f-88d5-8cb1fc6d6185")
+			(hide yes)
+			(uuid "8aede64b-7d5f-4edf-a288-fa649d879632")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +108,7 @@
 		(property "Value" "LM7805_TO220"
 			(at 2.54 2.2 90)
 			(layer "F.Fab")
-			(uuid "5e0de2bf-fb62-4580-b290-652f7ef977d1")
+			(uuid "9a9de560-172e-48c7-bf1b-47dd0a47eaa5")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +120,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c49f608-fd2c-47c4-82f5-20a46d54814b")
+			(uuid "ec030773-550b-4910-a887-536d5903dfe1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +131,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45958974-e669-4cca-9fed-edc306a9c032")
+			(uuid "61645465-1a90-4fd8-84da-b0f252c2beb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,7 +285,7 @@
 			(uuid "1440d788-cdd0-4832-b99e-c57ab72094f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 28.265 10.85 90)
+			(at 2.08 -4 90)
 			(layer "F.Fab")
 			(uuid "e35d44dd-d031-4dd1-b3ef-3aa2f57b4e7c")
 			(effects
@@ -876,7 +877,7 @@
 			(at 1.27246 -1.395187 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2d315fd7-bd8f-42f8-996f-850bf610f3c3")
+			(uuid "32444090-7bc7-4aea-b88e-3cac0860cc2c")
 			(effects
 				(font
 					(size 1 1)
@@ -888,7 +889,7 @@
 			(at -0.22754 -1.395187 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "9a14b4e3-78e0-41b4-bc6a-f4c177fb998c")
+			(uuid "6680ca5a-8e3b-4b23-b249-f1bc26df8ab5")
 			(effects
 				(font
 					(size 1 1)
@@ -901,7 +902,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "978173be-e7fd-49c2-a280-32fd88f9a840")
+			(uuid "29b8a275-f78c-44dd-be88-fa993bedd2ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +914,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fbe441b-2d83-4cf4-8703-b58a3115d311")
+			(uuid "b33c6ff8-acd0-49a5-9f1c-a91bc7621069")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,30 +1744,6 @@
 			(pinfunction "GPIO23_30")
 			(pintype "bidirectional")
 			(uuid "a9c3ec40-f753-4ebd-a5bf-0858085a65a1")
-		)
-		(group ""
-			(uuid "00395261-71ca-4b60-8964-02856b65e514")
-			(members "0c6840f6-cd19-4496-8d68-93d6a6155a3e" "0f33eb99-2e09-4a77-9e11-b00cceb7b770"
-				"2447e8c3-42cd-46aa-a9a3-c87ada7ddc25" "4356d6b9-9696-4a60-84fd-5afd36b91cc2"
-				"54b91ccf-4f16-48e7-86f7-9e9d89116fc1" "6a1da374-c9ef-4e01-b7a2-aa1762e1084a"
-				"6ceda573-ca9e-48df-8ce5-f80d4c0855f3" "8ae2c5dd-6208-420e-a312-a14ca70c8339"
-				"8af912b3-2e54-40e8-8c99-c6a652cf9331" "8b055f5f-3ac5-4eff-9dc0-8118114d189d"
-				"b64d942d-257b-44cd-a7db-4048eaae4192" "b705aff8-66e8-4cf6-9b07-e06c840cfe05"
-				"dc6c56b1-a47c-4001-8f9f-38c3dabfd499" "f568e2c0-b263-4388-931e-8ab973519c5a"
-				"fd7b3726-3d23-4d4e-b565-68cc6217630e"
-			)
-		)
-		(group ""
-			(uuid "a198a150-625b-4093-8257-562b29ff135c")
-			(members "00d5af9f-9833-44f0-8721-e2e53d57e1e5" "23d6636d-b794-4e57-b74e-a438371a71f3"
-				"4579d5b8-12a4-4738-ad05-c4028efcfbf2" "493be20d-7c11-4464-973a-d2eef9fae016"
-				"49d29ce9-5093-44a0-b0e4-eb7f55bc927e" "5f40ea0c-e58c-4e0d-b297-4bbb7fc09a40"
-				"8afb9471-a64d-495e-8a37-c867333a1ea7" "9158cc6e-5e0d-4831-9cc1-b57020338b38"
-				"94e6fd2f-8372-4bbc-b8ed-e105af415596" "a5a0f800-55da-44a3-b58a-4eea00b13dfe"
-				"a90bedab-0b69-4022-beaa-7d7ae5a514fa" "b8ffa770-8855-4e88-ab1d-f069990cdeee"
-				"d7d3bbba-775d-4bc5-b24a-571d65459747" "e2ca59f9-6150-4209-ad97-ae391d43de3e"
-				"fd99b8e2-39ca-43ca-9f5e-248ca76d5e1e"
-			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODELS}/ESP32-30pin.step"
@@ -3870,6 +3847,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 123 36)
+		(end 172 117)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2ad4778b-0ac8-43b0-b56f-543613b00bee")
 	)
 	(segment
 		(start 137.307911 113.307911)
